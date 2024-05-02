@@ -10,7 +10,7 @@ Using React, Javascript, HTML, and (S)CSS.
 
 ## Screenshots
 
-![ReactPostgresqlTest GUI gif](reactpostgresqltest.gif)
+![ReactPostgresqlTest GUI gif](reactpostgresqltest.png)
 
 
 
