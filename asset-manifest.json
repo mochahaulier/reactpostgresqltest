@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactpostgresqltest/static/css/main.bbf5e680.css",
-    "main.js": "/reactpostgresqltest/static/js/main.809aeb37.js",
+    "main.js": "/reactpostgresqltest/static/js/main.ceb108b0.js",
     "static/js/453.d112c476.chunk.js": "/reactpostgresqltest/static/js/453.d112c476.chunk.js",
     "static/media/fa-solid-900.ttf": "/reactpostgresqltest/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/reactpostgresqltest/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/reactpostgresqltest/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/reactpostgresqltest/index.html",
     "main.bbf5e680.css.map": "/reactpostgresqltest/static/css/main.bbf5e680.css.map",
-    "main.809aeb37.js.map": "/reactpostgresqltest/static/js/main.809aeb37.js.map",
+    "main.ceb108b0.js.map": "/reactpostgresqltest/static/js/main.ceb108b0.js.map",
     "453.d112c476.chunk.js.map": "/reactpostgresqltest/static/js/453.d112c476.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bbf5e680.css",
-    "static/js/main.809aeb37.js"
+    "static/js/main.ceb108b0.js"
   ]
 }
