@@ -1,5 +1,18 @@
-Full stack CRUD ( Create, Read, Update, Delete) using Spring boot and React Hooks using Functional Components.
-Web Services (REST API) using Spring and PostgreSql on Backend and Test using PostMan and handle the same REST API on react in frontend using axios.
+# ReactPostgreSQLTest
+
+A quick test of developing a React CRUD frontend using Axios by implementing a Todo List.
+
+The app connects to Spring boot backend REST Api deployed on Render, using a PostgreSQL DB.
+
+Using React, Javascript, HTML, and (S)CSS.
+
+
+
+## Screenshots
+
+![ReactPostgresqlTest GUI gif](reactpostgresqltest.png)
+
+
 
 # Getting Started with Create React App
 
