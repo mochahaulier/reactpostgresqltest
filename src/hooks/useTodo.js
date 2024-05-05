@@ -14,36 +14,47 @@ const useGame = () => {
 
   useEffect(() => {
     loadTodos();
-  });
+  }, []);
 
   const loadTodos = async () => {
+    let delay;
     try {
-      setIsLoading(true);
+      delay = setTimeout(() => {
+        setIsLoading(true);
+      }, 1500);
       const result = await api.get("/todos");
       const sorted = result.data.sort((a, b) => (a.id > b.id ? -1 : 1));
       setTodos(sorted);
     } catch (err) {
       console.log(err);
     } finally {
+      clearTimeout(delay);
       setIsLoading(false);
     }
   };
 
   const deleteTodo = async (id) => {
+    let delay;
     try {
-      setIsLoading(true);
+      delay = setTimeout(() => {
+        setIsLoading(true);
+      }, 1500);
       await api.delete(`/todo/${id}`);
       loadTodos();
     } catch (error) {
       console.log(error);
     } finally {
+      clearTimeout(delay);
       setIsLoading(false);
     }
   };
 
   const updateCompleted = async (e, upTodo) => {
+    let delay;
     try {
-      setIsLoading(true);
+      delay = setTimeout(() => {
+        setIsLoading(true);
+      }, 1500);
       e.preventDefault();
       upTodo.isCompleted = e.target.checked;
       await api.put(`/todo/${upTodo.id}`, upTodo);
@@ -51,6 +62,7 @@ const useGame = () => {
     } catch (err) {
       console.log(err);
     } finally {
+      clearTimeout(delay);
       setIsLoading(false);
     }
   };
@@ -77,22 +89,30 @@ const useGame = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     if (!idEdit) {
+      let delay;
       try {
-        setIsLoading(true);
+        delay = setTimeout(() => {
+          setIsLoading(true);
+        }, 1500);
         await api.post("/todo", editedTodo);
       } catch (err) {
         console.log(err);
       } finally {
+        clearTimeout(delay);
         setIsLoading(false);
       }
     } else {
+      let delay;
       try {
-        setIsLoading(true);
+        delay = setTimeout(() => {
+          setIsLoading(true);
+        }, 1500);
         await api.put(`/todo/${idEdit}`, editedTodo);
         setIdEdit("");
       } catch (err) {
         console.log(err);
       } finally {
+        clearTimeout(delay);
         setIsLoading(false);
       }
     }
