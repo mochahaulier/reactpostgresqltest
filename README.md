@@ -6,7 +6,8 @@ The app connects to Spring boot backend REST Api deployed on Render, using a Pos
 
 Using React, Javascript, HTML, and (S)CSS.
 
-
+> [!IMPORTANT]  
+> The instance running the backend will spin down with inactivity, which can delay initial requests by 50 seconds or more.
 
 ## Screenshots
 
