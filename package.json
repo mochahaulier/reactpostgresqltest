@@ -1,7 +1,7 @@
 {
   "name": "reactpostgresqltest",
   "version": "0.1.0",
-  "homepage" : "https://mochahaulier.github.io/reactpostgresqltest",
+  "homepage": "https://mochahaulier.github.io/reactpostgresqltest",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
@@ -13,6 +13,7 @@
     "mdb-react-ui-kit": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
